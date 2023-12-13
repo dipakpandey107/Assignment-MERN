@@ -19,7 +19,7 @@ const corsOptions = {
 mongoose.set("strictQuery", false);
 const connect = async()=>{
     try {
-        await mongoose.connect("mongodb+srv://vinay:vinay@tourbooking.4ez0yvi.mongodb.net/tour_booking?retryWrites=true&w=majority",{
+        await mongoose.connect("mongodb+srv://dipak:*****@ecommerce.tiwc5yh.mongodb.net/",{
             useNewUrlParser:true,
             useUnifiedTopology: true,
         });
